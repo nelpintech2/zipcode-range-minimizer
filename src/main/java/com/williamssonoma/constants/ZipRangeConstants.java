@@ -18,5 +18,5 @@ public final class ZipRangeConstants {
 	public static final String ERROR_ZIP_RANGE = "Invalid Zip Code Range format. Please input Zip Code range in [ZipCode_LowerBound,ZipCode_HigherBound] format.";
 	public static final String ERROR_ZIP_ORDER = "Invalid Zip Code order. Higher bound Zip Code should be greater than lower bound Zip Code.";
 	public static final String ERROR_EMPTY_ZIP_CODE_RANGE = "Empty Zip codes list or Zip range list";
-	
+
 }

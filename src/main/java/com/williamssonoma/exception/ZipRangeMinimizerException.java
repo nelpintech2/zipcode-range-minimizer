@@ -8,8 +8,8 @@ package com.williamssonoma.exception;
  */
 @SuppressWarnings("serial")
 public class ZipRangeMinimizerException extends Exception {
-	
-    public ZipRangeMinimizerException(String errorMessage) {
-        super(errorMessage);
-    }
+
+	public ZipRangeMinimizerException(String errorMessage) {
+		super(errorMessage);
+	}
 }

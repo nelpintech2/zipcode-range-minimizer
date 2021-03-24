@@ -15,19 +15,21 @@ public final class ZipRange {
 	 * The higher bound zip code
 	 */
 	private final Integer highZipCode;
-	
+
 	/**
-	* Constructor for ZipRange
-	* @param lowZipCode the lower bound zip code
-	* @param highZipCode the higher bound zip code
-	*/
-	public ZipRange(Integer lowZipCode, Integer highZipCode) {		
+	 * Constructor for ZipRange
+	 * 
+	 * @param lowZipCode  the lower bound zip code
+	 * @param highZipCode the higher bound zip code
+	 */
+	public ZipRange(Integer lowZipCode, Integer highZipCode) {
 		this.lowZipCode = lowZipCode;
 		this.highZipCode = highZipCode;
-	}	
+	}
 
 	/**
 	 * Getter for lowZipCode
+	 * 
 	 * @return lower bound zip code
 	 */
 	public Integer getLowZipCode() {
@@ -36,6 +38,7 @@ public final class ZipRange {
 
 	/**
 	 * Getter for highZipCode
+	 * 
 	 * @return higher bound zip code
 	 */
 	public Integer getHighZipCode() {
@@ -43,7 +46,8 @@ public final class ZipRange {
 	}
 
 	/**
-	 * Converts to String 
+	 * Converts to String
+	 * 
 	 * @return string value
 	 */
 	@Override
@@ -52,7 +56,8 @@ public final class ZipRange {
 	}
 
 	/**
-	 * Calculates Hash value 
+	 * Calculates Hash value
+	 * 
 	 * @return the hash value
 	 */
 	@Override
